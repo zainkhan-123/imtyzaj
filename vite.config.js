@@ -27,7 +27,7 @@ export default defineConfig({
         ],
       },
     includeAssets:['kaaba.png',
-      'logo.png'],
+      'logo.png', 'app.css'],
 
     manifest: {
       name: 'ابوبکر روحانی ویلفیرٹرسٹ',  // Full app name
