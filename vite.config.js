@@ -26,8 +26,6 @@ export default defineConfig({
           },
         ],
       },
-
-    registerType: 'autoUpdate', // Service Worker ko auto update karne ke liye
     includeAssets:['kaaba.png',
       'logo.png'],
 
