@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(), 
     VitePWA({
       registerType: 'autoUpdate', // Service Worker ko auto update karne ke liye
-      includeAssets: ['/kaaba.jpg', '/logo.png' ],
+      includeAssets: ['kaaba.png', 'logo.png' ],
       
       manifest: {
         name: 'ابوبکر روحانی ویلفیرٹرسٹ',  // Full app name

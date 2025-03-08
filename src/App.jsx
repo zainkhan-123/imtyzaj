@@ -95,6 +95,8 @@
 
 import React, { useState } from 'react';
 import './index.css'
+import '../public/app.css'
+
 
 function App() {
   const [firstName, setFirstName] = useState("");
