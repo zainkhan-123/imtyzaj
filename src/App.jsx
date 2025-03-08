@@ -95,7 +95,7 @@
 
 import React, { useState } from 'react';
 import './index.css'
-import './App.css'
+import '../public/App.css'
 
 
 function App() {
