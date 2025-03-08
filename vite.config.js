@@ -49,7 +49,7 @@ export default defineConfig({
           type: 'image/png'
         },
         {
-          src: '.png',
+          src: '/kaaba.png',
           sizes: '192x192',
           type: 'image/png'
         }
