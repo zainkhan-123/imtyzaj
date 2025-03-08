@@ -48,11 +48,7 @@ export default defineConfig({
           sizes: '512x512',
           type: 'image/png'
         },
-        {
-          src: '/kaaba.png',
-          sizes: '192x192',
-          type: 'image/png'
-        }
+        
         // Agar aapke paas additional icon sizes hain, unko yahan add karein
       ]
     }
