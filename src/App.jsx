@@ -149,7 +149,7 @@ function App() {
    <div>
     <h1 className="text-center text-2xl font-bold  mt-6 p-4 mb-0 text-black bg-sky-700 border rounded-lg max-w-sm  h-16  mx-auto">ابوبکر روحانی ویلفیرٹرسٹ</h1>
     <div className="max-w-sm mx-auto p-4 bg-sky-800  shadow-md rounded-md mt-10">
-      <h2 className="text-center text-2xl font-bold mb-4 text-orange-400">
+      <h2 className="text-center text-2xl font-bold mb-4 text-white">
               امتزاج
       </h2>
       <input
@@ -195,3 +195,12 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+// git commit -m "Update PWA configuration and rebuild for manually cache version upadate"
