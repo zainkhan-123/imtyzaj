@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
- background-image: url(./kaaba.jpg);
+ background-image: url(../public/kaaba.jpg);
  background-size:auto;
 
 }
