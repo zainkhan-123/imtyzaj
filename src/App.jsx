@@ -142,7 +142,18 @@ function App() {
       }
     }
 
-    setCombinedText(result.join(" "));
+const chars = Array.from(result.join("")); // convert into array for easily spliting urdu letters
+let groupedout = [];
+    groupedout.push(chars.slice(0,4).join(""))
+
+    for (let i = 4; i < chars.length ; i +=4){
+      groupedout.push(chars.slice(i , i + 4).join(""))
+4     
+    }
+
+
+
+    setCombinedText(groupedout.join(" "));
   };
 
   return (
@@ -203,4 +214,3 @@ export default App;
 
 
 
-// git commit -m "Update PWA configuration and rebuild for manually cache version upadate"
